@@ -28,7 +28,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: get and unzip aospclang                                                                                                         - name: depend libs
+      - name: compile!                                                                                                      - name: depend libs
         run: |
            sudo apt-get update
            sudo apt-get upgrade                                                                                      sudo apt-get install python bash sed wget git curl zip tar expect make cmake automake autoconf bison perl gperf gawk flex bc zstd openssl libcurl4-openssl-dev clang clang-tools gcc gcc-10-aarch64-linux-gnu build-essential                                                                             run: |
