@@ -38,6 +38,7 @@ jobs:
            sudo su
            sudo su
            alias cp="cp"
+           cd /home/runner/work/kernel_xiaomi_sm8250/kernel_xiaomi_sm8250
            clang-r458507/bin/clang -v
            sudo chmod 777 *
            sudo make O=out ARCH=arm64 CC=clang-r458507/clang CLANG_TARIPLE=aarch64-linux-gnu- CROSS_COMPILE=aarch64-linux-gnu- -j4 alioth_defconfig
